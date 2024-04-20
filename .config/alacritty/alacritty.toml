@@ -1,0 +1,17 @@
+[window]
+padding = { x = 8, y = 0 }
+decorations = "None"
+opacity = 0.9
+
+[font]
+normal = { family = "Hasklug Nerd Font", style = "Regular" }
+bold = { family = "Hasklug Nerd Font", style = "Bold" }
+italic = { family = "Hasklug Nerd Font", style = "Italic" }
+bold_italic = { family = "Hasklug Nerd Font", style = "Bold Italic" }
+size = 10
+
+[keyboard]
+bindings = [
+  { key = "l", mods = "Control|Shift", action = "ClearHistory" },
+  { key = "f", mods = "Control|Shift", action = "ToggleMaximized" }
+]
